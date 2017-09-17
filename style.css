@@ -1,0 +1,33 @@
+/* universal */
+* {
+	background-color: #c339e5;
+	margin: auto;
+}
+/* body */ 
+h1, #p1 {
+	position: relative;
+	left: 36%;
+	margin: auto;
+	font-family: Comic Sans MS, sans-serif; color: SkyBlue;
+}
+
+h1 {
+	font-size: 370%;
+}
+
+.list {
+	font-family: Comic Sans MS, sans-serif; color: SkyBlue;
+	line-height: 1.7em;
+	font-size: 2em;
+	position: relative;
+	left: 34%;
+}
+
+.gifs { 
+    left: 34%;
+    position: relative;
+}
+
+#p1 {
+	font-size: 200%;
+}
