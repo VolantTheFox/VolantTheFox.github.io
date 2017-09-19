@@ -1,12 +1,23 @@
 /* universal */
+
+/* to use later 
+
+background-color: #c339e5;
+
+*/
+
 * {
-	background-color: #c339e5;
 	margin: auto;
 }
 /* body */ 
+
+body {
+	background-image: url(https://fat.gfycat.com/EminentWildBrocketdeer.gif)
+}
+
 h1, #p1 {
+	width: 700px;
 	position: relative;
-	left: 36%;
 	margin: auto;
 	font-family: Comic Sans MS, sans-serif; color: SkyBlue;
 }
@@ -16,18 +27,21 @@ h1 {
 }
 
 .list {
+	background-color: transparent;
+	width: 700px;
 	font-family: Comic Sans MS, sans-serif; color: SkyBlue;
 	line-height: 1.7em;
 	font-size: 2em;
 	position: relative;
-	left: 34%;
 }
 
-.gifs { 
-    left: 34%;
-    position: relative;
+.gifs {
+    background-color: transparent;	
+    width: 700px;
+	margin: auto;
 }
 
 #p1 {
+	background-color: transparent;
 	font-size: 200%;
 }
