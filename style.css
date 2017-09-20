@@ -7,14 +7,7 @@ background-color: #c339e5;
 */
 
 * {
-<<<<<<< HEAD
 	background-color: #c339e5;
-=======
-<<<<<<< HEAD
-	background-color: #c339e5;
-=======
->>>>>>> da47ff853bd4181c1f9e410fefbdd91faad1951e
->>>>>>> 6e0afec43449709005c27d7ab69981356ce2b226
 	text-align: center;
 	box-sizing: border-box;
 	margin: auto;
@@ -37,22 +30,8 @@ h1, #p1 {
 #lewd {
 	width: 700px;
 	position: relative;
-<<<<<<< HEAD
 }
 
-=======
-<<<<<<< HEAD
-
-
-}
-
-=======
-	
-	
-}
- 
->>>>>>> da47ff853bd4181c1f9e410fefbdd91faad1951e
->>>>>>> 6e0afec43449709005c27d7ab69981356ce2b226
 h1 {
 	font-size: 370%;
 }
@@ -67,6 +46,7 @@ h1 {
 }
 
 .gifs {
+    position: relative;	
     background-color: transparent;
     width: 700px;
   	margin: auto;
