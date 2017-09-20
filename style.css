@@ -7,10 +7,7 @@ background-color: #c339e5;
 */
 
 * {
-<<<<<<< HEAD
 	background-color: #c339e5;
-=======
->>>>>>> da47ff853bd4181c1f9e410fefbdd91faad1951e
 	text-align: center;
 	box-sizing: border-box;
 	margin: auto;
@@ -33,17 +30,8 @@ h1, #p1 {
 #lewd {
 	width: 700px;
 	position: relative;
-<<<<<<< HEAD
-
-
 }
 
-=======
-	
-	
-}
- 
->>>>>>> da47ff853bd4181c1f9e410fefbdd91faad1951e
 h1 {
 	font-size: 370%;
 }
@@ -60,7 +48,7 @@ h1 {
 .gifs {
     background-color: transparent;
     width: 700px;
-	margin: auto;
+  	margin: auto;
 }
 
 #p1 {
