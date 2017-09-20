@@ -1,0 +1,75 @@
+/* universal */
+
+/* to use later
+
+background-color: #c339e5;
+
+*/
+
+* {
+	border-radius: 35px;
+	background-color: rgba(255,192,203,0.5);
+	text-align: center;
+	box-sizing: border-box;
+	margin: auto;
+}
+
+/* transparency for boxed items */
+
+#pepe-gif, li, a, font {
+	background-color: transparent;
+}
+
+/* body */
+
+body {
+	background: url(https://fat.gfycat.com/EminentWildBrocketdeer.gif) no-repeat center;
+	background-size: cover;
+	border: solid 1px;
+}
+
+h1, #p1 {
+	width: 700px;
+	position: relative;
+	border: solid 1px;
+	margin: auto;
+	font-family: Comic Sans MS, sans-serif; color: SkyBlue;
+}
+
+#p1 {
+	font-size: 200%;
+}
+
+
+#lewd {
+	width: 700px;
+	position: relative;
+}
+
+
+h1 {
+	font-size: 370%;
+}
+
+.list {
+	border: solid 1px;
+	width: 700px;
+	font-family: Comic Sans MS, sans-serif; color: SkyBlue;
+	line-height: 1.7em;
+	font-size: 2em;
+	position: relative;
+}
+
+
+
+.gifs {
+	border: solid 1px;
+    width: 700px;
+	margin: auto;
+}
+
+img.gifs {
+	position: relative;
+}
+
+
