@@ -7,13 +7,15 @@ background-color: #c339e5;
 */
 
 * {
-	border: solid 2px black;
+	text-align: center;
+	box-sizing: border-box;
 	margin: auto;
 }
 /* body */ 
 
 body {
-	background-image: url(https://fat.gfycat.com/EminentWildBrocketdeer.gif)
+	background: url(https://fat.gfycat.com/EminentWildBrocketdeer.gif) no-repeat center;
+	background-size: cover;
 }
 
 h1, #p1 {
@@ -23,6 +25,13 @@ h1, #p1 {
 	font-family: Comic Sans MS, sans-serif; color: SkyBlue;
 }
 
+#lewd {
+	width: 700px;
+	position: relative;
+	
+	
+}
+ 
 h1 {
 	font-size: 370%;
 }
