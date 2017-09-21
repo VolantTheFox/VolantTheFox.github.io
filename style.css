@@ -17,6 +17,7 @@ background-color: #c339e5;
 /* transparency for boxed items. */
 
 #pepe-gif, li, a, font {
+	position: relative;
 	background-color: transparent;
 }
 
@@ -31,7 +32,6 @@ h1, #p1 {
 	width: 700px;
 	position: relative;
 	border: solid 1px;
-	margin: auto;
 	font-family: Comic Sans MS, sans-serif; color: SkyBlue;
 }
 
