@@ -12,62 +12,79 @@ background-color: #c339e5;
 	text-align: center;
 	box-sizing: border-box;
 	margin: auto;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
 /* transparency for boxed items. */
 
-#pepe-gif, li, a, font {
+#pepe-gif, li, a, font, h2 {
 	position: relative;
 	background-color: transparent;
 }
 
 /* body */
+html {
+	background-color: Orange;
+}
 
-body {
+.body {
+	width: 65%;
+	padding: 10px;
+	background-color: Orange;
 	background: url(https://fat.gfycat.com/EminentWildBrocketdeer.gif) no-repeat center;
 	background-size: cover;
+	border: solid 5px skyblue;
 }
 
-h1, #p1 {
-	width: 700px;
+/* 1st header div */
+h1, #h1 {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	width: 600px;
 	position: relative;
-	border: solid 1px;
-	font-family: Comic Sans MS, sans-serif; color: SkyBlue;
+	border: solid 1px skyBlue;
+	font-family: Comic Sans MS, sans-serif; color: Magenta;
 }
 
-#p1 {
+#h1 {
 	font-size: 200%;
 }
 
-
-#lewd, #oats, #cena {
-	width: 700px;
-	position: relative;
-}
 
 
 h1 {
 	font-size: 370%;
 }
 
+/*this affects lists*/
 .list {
 	border: solid 1px;
-	width: 700px;
-	font-family: Comic Sans MS, sans-serif; color: SkyBlue;
+	width: 600px;
+	font-family: Comic Sans MS, sans-serif; color: Magenta;
 	line-height: 1.7em;
 	font-size: 2em;
 	position: relative;
 }
 
 
-
+/* all of this is the gifs and videos/images */
 .gifs {
-    width: 700px;
-	margin: auto;
+	border: solid SkyBlue 1px;
 }
 
-img.gifs {
+img.gifs, .gifs {
+    width: 600px;
 	position: relative;
 }
 
-
+#lewd, #oats, #cena {
+	background-color: transparent;
+	width: 600px;
+	position: relative;
+}
+/*
+img.gifs {
+	position: relative;
+}
+*/
