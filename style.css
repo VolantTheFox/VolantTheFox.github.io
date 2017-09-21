@@ -36,6 +36,23 @@ html {
 	background-color: Orange;
 }
 
+/* navbar */
+
+.navbar {
+
+}
+
+ul.navbar {
+	lists-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60px;
+}
+
+li.navbar, a.navbar {
+	display: block;
+}
+
 .body {
 	width: 65%;
 	padding: 10px;
