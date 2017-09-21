@@ -1,3 +1,9 @@
+/* warning, not very tidy,
+   many redundant strings
+   fixing it as i go */
+
+
+
 /* universal */
 
 /* to use later
@@ -25,30 +31,32 @@ background-color: #c339e5;
 
 /* body */
 html {
+	border: solid 2em black;
 	background-color: Orange;
 }
 
 .body {
 	width: 65%;
 	padding: 10px;
-	background-color: Orange;
+	background-color: transparent;
 	background: url(https://fat.gfycat.com/EminentWildBrocketdeer.gif) no-repeat center;
 	background-size: cover;
 	border: solid 5px skyblue;
 }
 
+body {
+	background-color: transparent;
+}
+
 /* 1st header div */
 h1, #h1 {
+	font-size: 200%;
 	margin-top: 2px;
 	margin-bottom: 2px;
 	width: 600px;
 	position: relative;
 	border: solid 1px skyBlue;
 	font-family: Comic Sans MS, sans-serif; color: Magenta;
-}
-
-#h1 {
-	font-size: 200%;
 }
 
 
@@ -79,10 +87,28 @@ img.gifs, .gifs {
 }
 
 #lewd, #oats, #cena {
-	background-color: transparent;
 	width: 600px;
 	position: relative;
 }
+
+#lewd {
+	background-color: transparent;
+}
+
+#oats, #cena {
+	border: solid 1px Skyblue;
+}
+
+#oatsvid {
+	height: 315px;
+	width: 95%;
+}
+
+#cenaimg {
+	height: 95%;
+	width: 95%;
+}
+
 /*
 img.gifs {
 	position: relative;
