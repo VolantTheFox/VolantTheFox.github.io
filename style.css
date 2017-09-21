@@ -31,13 +31,17 @@ background-color: #c339e5;
 
 /* body */
 html {
-	border: solid 2em black;
+	padding: 2em;
+	border-radius: 1px;
+	border: solid 1em black;
 	background-color: Orange;
 }
 
 .body {
 	width: 65%;
 	padding: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	background-color: transparent;
 	background: url(https://fat.gfycat.com/EminentWildBrocketdeer.gif) no-repeat center;
 	background-size: cover;
@@ -50,12 +54,13 @@ body {
 
 /* 1st header div */
 h1, #h1 {
+	padding-bottom: 10px;
 	font-size: 200%;
 	margin-top: 2px;
 	margin-bottom: 2px;
 	width: 600px;
 	position: relative;
-	border: solid 1px skyBlue;
+	border: solid 1px magenta;
 	font-family: Comic Sans MS, sans-serif; color: Magenta;
 }
 
@@ -78,7 +83,7 @@ h1 {
 
 /* all of this is the gifs and videos/images */
 .gifs {
-	border: solid SkyBlue 1px;
+	border: solid magenta 1px;
 }
 
 img.gifs, .gifs {
@@ -96,7 +101,9 @@ img.gifs, .gifs {
 }
 
 #oats, #cena {
-	border: solid 1px Skyblue;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	border: solid 1px magenta;
 }
 
 #oatsvid {
