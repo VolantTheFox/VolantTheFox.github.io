@@ -14,7 +14,7 @@ background-color: #c339e5;
 
 * {
 	border-radius: 35px;
-	background-color: rgba(255,192,203,0.5);
+	background-color: rgba(255,192,203,0.8);
 	text-align: center;
 	box-sizing: border-box;
 	margin: auto;
@@ -33,7 +33,7 @@ background-color: #c339e5;
 html {
 	padding: 2em;
 	border-radius: 1px;
-	background-color: Orange;
+	background-color: #C296B6;
 }
 
 /* navbar */
@@ -59,7 +59,7 @@ li.navbar, a.navbar {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	background-color: transparent;
-	background: url(https://fat.gfycat.com/EminentWildBrocketdeer.gif) no-repeat center;
+	background: url(https://s-media-cache-ak0.pinimg.com/originals/90/3b/d6/903bd6f8c9cb9ed1b613108f97f21723.jpg) no-repeat center;
 	background-size: cover;
 	border: solid 5px skyblue;
 }
@@ -72,7 +72,7 @@ body {
 h1, #h1 {
 	padding-bottom: 10px;
 	font-size: 200%;
-	width: 600px;
+	width: 80%;
 	position: relative;
 	border: solid 1px magenta;
 	font-family: Comic Sans MS, sans-serif; color: Magenta;
@@ -87,7 +87,7 @@ h1 {
 /*this affects lists*/
 .list {
 	border: solid 1px;
-	width: 600px;
+	width: 80%;
 	font-family: Comic Sans MS, sans-serif; color: Magenta;
 	line-height: 1.7em;
 	font-size: 2em;
@@ -101,17 +101,23 @@ h1 {
 }
 
 img.gifs, .gifs {
-    width: 600px;
+	width: 80%;
 	position: relative;
 }
 
 #lewd, #oats, #cena {
-	width: 600px;
+	width: 80%;
 	position: relative;
 }
 
 #lewd {
+	width: 80%;
 	background-color: transparent;
+}
+
+#pepe-gif, #pickle  {
+	max-height: 70%;
+	max-width: 70%;
 }
 
 #oats, #cena {
@@ -125,7 +131,7 @@ img.gifs, .gifs {
 	width: 95%;
 }
 
-#cenaimg {
+#cenaimg, #tweet {
 	height: 95%;
 	width: 95%;
 }
