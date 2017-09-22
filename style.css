@@ -71,7 +71,6 @@ body {
 /* 1st header div */
 h1, #h1 {
 	padding-bottom: 10px;
-	font-size: 200%;
 	width: 80%;
 	position: relative;
 	border: solid 1px magenta;
@@ -81,7 +80,7 @@ h1, #h1 {
 
 
 h1 {
-	font-size: 370%;
+	font-size: 250%;
 }
 
 /*this affects lists*/
@@ -90,7 +89,7 @@ h1 {
 	width: 80%;
 	font-family: Comic Sans MS, sans-serif; color: Magenta;
 	line-height: 1.7em;
-	font-size: 2em;
+	font-size: 150%;
 	position: relative;
 }
 
