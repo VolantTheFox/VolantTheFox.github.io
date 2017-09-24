@@ -140,3 +140,8 @@ img.gifs {
 	position: relative;
 }
 */
+
+inlineBlock {
+	position: relative;
+	display: inline-block;
+}
