@@ -78,10 +78,14 @@ h1 {
 
 .list {
 	position: top-left;
+	float:left;
+    	margin-right:5px;
 }
 
 #list2 {
 	position: top-right;
+	float:left;
+    	margin-right:5px;
 }
 
 ul {
@@ -141,7 +145,10 @@ img.gifs {
 }
 */
 
-inlineBlock {
-	position: relative;
-	display: inline-block;
+#listparent {
+    width:100px;
+    height:100px;
+    border:1px solid red;
+    margin-right:10px;
+    float:left;
 }
