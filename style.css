@@ -36,23 +36,6 @@ html {
 	background-color: #C296B6;
 }
 
-/* navbar */
-
-.navbar {
-
-}
-
-ul.navbar {
-	lists-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: 60px;
-}
-
-li.navbar, a.navbar {
-	display: block;
-}
-
 .body {
 	width: 80%;
 	padding: 10px;
@@ -84,15 +67,32 @@ h1 {
 }
 
 /*this affects lists*/
-.list {
+.list, #list2 {
 	border: solid 1px;
-	width: 80%;
+	width: 40%;
 	font-family: Comic Sans MS, sans-serif; color: Magenta;
 	line-height: 1.7em;
 	font-size: 150%;
 	position: relative;
 }
 
+.list {
+	position: top-left;
+}
+
+#list2 {
+	position: top-right;
+}
+
+ul {
+	left: 17%;
+	border: solid 2;
+	position: relative;
+}
+
+li {
+	text-align: left;
+}
 
 /* all of this is the gifs and videos/images */
 .gifs {
