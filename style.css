@@ -100,12 +100,12 @@ h1 {
 	line-height: 2em;
 	display: inline-table;
 	height: 1em;
-	width: 7%;
+	width: 8%;
 }
 
 p {
 	height: 90%
-	border: solid 1px;
+	border: solid 4px;
 	background-color: rgba(138, 17, 198,.2);
 }
 
