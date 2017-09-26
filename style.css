@@ -31,13 +31,14 @@ background-color: #c339e5;
 
 /* body */
 html {
+	height: 70em
 	padding: 2em;
 	border-radius: 1px;
 	background-color: #C296B6;
 }
 
 .body {
-	width: 80%;
+	width: 90%;
 	padding: 10px;
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -67,31 +68,52 @@ h1 {
 }
 
 /*this affects lists*/
-.list, #list2 {
+
+#listcon {
+	padding: 2%;
+	border: solid 1px magenta;
+	width: 80%;
+}
+
+.list, .list2 {
+	margin-top: 2%;
+	margin-bottom: 2%;
 	border: solid 1px;
-	width: 40%;
+	width: 45%;
 	font-family: Comic Sans MS, sans-serif; color: Magenta;
 	line-height: 1.7em;
-	font-size: 150%;
+	font-size: 120%;
 	position: relative;
 }
 
 .list {
-	position: top-left;
-	float:left;
-    	margin-right:5px;
+	float: left;
 }
 
-#list2 {
-	position: top-right;
-	float:left;
-    	margin-right:5px;
+.and {
+	font-family: Comic Sans MS, sans-serif;
+	color: #4286f4;
+	font-size: 125%;
+	line-height: 1.7em;
+	position: relative;
+	display: inline-table;
+	height: 1em;
+	width: 7%;
+}
+
+p {
+	border: solid 1px;
+	background-color: white;
+}
+
+.list2 {
+	float: right;
 }
 
 ul {
-	left: 17%;
-	border: solid 2;
+	margin-left: 5%;
 	position: relative;
+	font-size: 90%;
 }
 
 li {
@@ -124,13 +146,14 @@ img.gifs, .gifs {
 }
 
 #oats, #cena {
+	height: 700px;
 	padding-top: 10px;
 	padding-bottom: 8px;
 	border: solid 1px magenta;
 }
 
 #oatsvid {
-	height: 315px;
+	height: 95%;
 	width: 95%;
 }
 
@@ -144,8 +167,3 @@ img.gifs {
 	position: relative;
 }
 */
-
-#listparent {
-    margin: auto;
-    float: left;
-}
