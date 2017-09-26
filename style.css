@@ -91,19 +91,21 @@ h1 {
 }
 
 .and {
+	background: transparent;
+	float: none;
 	font-family: Comic Sans MS, sans-serif;
 	color: #4286f4;
 	font-size: 125%;
-	line-height: 1.7em;
-	position: relative;
+	line-height: 40px;
 	display: inline-table;
 	height: 1em;
 	width: 7%;
 }
 
 p {
+	height: 90%
 	border: solid 1px;
-	background-color: white;
+	background-color: rgba(25,135,122,.2);
 }
 
 .list2 {
