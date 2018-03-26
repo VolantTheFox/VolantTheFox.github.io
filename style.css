@@ -70,6 +70,7 @@ h1 {
 /*this affects lists*/
 
 #listcon {
+	padding: 2%;
 	border: solid 1px magenta;
 	width: 80%;
 }
@@ -78,11 +79,28 @@ h1 {
 	margin-top: 2%;
 	margin-bottom: 2%;
 	border: solid 1px;
-	width: 25%;
+	width: 45%;
 	font-family: Comic Sans MS, sans-serif; color: Magenta;
 	line-height: 1.7em;
 	font-size: 120%;
 	position: relative;
+}
+
+.list {
+	float: left;
+	background-color: rgba(138, 17, 198, .2);
+}
+
+.and {
+	background: transparent;
+	float: none;
+	font-family: Comic Sans MS, sans-serif;
+	color: #4286f4;
+	font-size: 130%;
+	line-height: 2em;
+	display: inline-table;
+	height: 1em;
+	width: 8%;
 }
 
 p {
