@@ -51,5 +51,3 @@ index_htm_files/XaraWDGeneratedHTMLfont1.woff
 index_htm_files/XaraWDEmbeddedHTMLfont1.eot
 index_htm_files/XaraWDGeneratedHTMLfont2.woff
 index_htm_files/XaraWDEmbeddedHTMLfont2.eot
-index_htm_files/XaraWDGeneratedHTMLfont3.woff
-index_htm_files/XaraWDEmbeddedHTMLfont3.eot
